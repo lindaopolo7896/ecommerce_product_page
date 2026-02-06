@@ -33,6 +33,16 @@ body {
   padding: 2rem 10rem;
 }
 
+.main {
+  padding-bottom: 10px;
+}
+
+.attribution {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .navbar,
 .left,
 .nav-items,

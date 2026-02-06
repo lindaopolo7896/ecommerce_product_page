@@ -92,6 +92,13 @@ function App() {
         </div>
       </div>
       {cart === true && <Cart count={cartCount} onClick={removeFromCart} />}
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by <a href="#">Eleanor Opolo</a>.
+      </div>
     </div>
   );
 }
